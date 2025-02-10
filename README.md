@@ -1,7 +1,3 @@
-Below is an enriched version of the Awesome ASPM document that not only covers the core application security and ASPM tools, techniques, and providers but also integrates a comprehensive Software Supply Chain Security section. This combined resource brings together best practices from both worlds to help you secure your applications and their entire supply chain.
-
----
-
 # Awesome ASPM
 
 This document is a curated, community‐driven list of resources from my ASPM universe—a comprehensive collection covering application security (AppSec), Application Security Posture Management (ASPM), and Software Supply Chain Security. Whether you're a developer, security engineer, or decision‐maker, use this list to navigate essential tools, techniques, URLs, and leading providers in the appsec space, while also gaining insight into supply chain risk management and transparency.
