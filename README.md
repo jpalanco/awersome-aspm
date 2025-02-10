@@ -1,4 +1,4 @@
-# Awesome ASPM Universe
+# Awesome ASPM
 
 This document is a curated, community‐driven list of resources from my ASPM universe—a comprehensive collection covering application security (AppSec), Application Security Posture Management (ASPM), and the broader software supply chain security. Whether you're a developer, security engineer, or decision‐maker, use this list to navigate essential tools, techniques, URLs, and leading providers in the appsec space.
 
