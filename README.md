@@ -45,7 +45,7 @@ ASPM isn’t just another buzzword—it’s a necessity in today’s evolving cy
 
 | Tool | Description |
 |:-----|:------------|
-| **Checkmarx SAST** | Comprehensive scanning with support for 35+ languages and robust AI‐assisted remediation. |
+| [Checkmarx SAST](https://checkmarx.com/cxsast-source-code-scanning/) | Comprehensive scanning with support for 35+ languages and robust AI‐assisted remediation. |
 | [SonarQube](https://www.sonarqube.org) | Open-source solution focused on code quality and vulnerability detection. |
 | [Veracode](https://www.veracode.com) | Cloud-based platform offering low false positives and detailed remediation guidance. |
 | [Semgrep](https://semgrep.dev) | Highly configurable static analysis that easily integrates into CI/CD pipelines across multiple languages. |
