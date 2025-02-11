@@ -17,7 +17,7 @@ This document is a curated, community‐driven list of resources from the ASPM u
    - [IaC & Container Security Tools](#iac--container-security-tools)
    - [SCM Security & Software Supply Chain Tools](#scm-security--software-supply-chain-tools)
    - [Secrets Management Tools](#secrets-management-tools)
-   - [Other Useful Tools](#other-useful-tools)
+   - [Vulnerable Projects for Testing](#Vulnerable-Projects-for-Testing)
 3. [Techniques](#techniques)
 4. [URLs & Resources](#urls--resources)
 5. [Providers & Services](#providers--services)
@@ -208,15 +208,24 @@ In today's evolving cybersecurity landscape, effective Application Security Post
 
 ---
 
-### Other Useful Tools
+### Vulnerable Projects for Testing
 
-#### Wireshark
-- **Website:** [https://www.wireshark.org](https://www.wireshark.org)
-- **Description:** A powerful network sniffer for capturing and analyzing network traffic for diagnostic purposes.
+#### SAST Vulnerable Projects
+- [AltoroJ](https://github.com/HCL-TECH-SOFTWARE/AltoroJ)
+- [pygoat](https://github.com/adeyosemanputra/pygoat)
+- [WebGoat.NET](https://github.com/tobyash86/WebGoat.NET)
+- [Juice Shop](https://github.com/juice-shop/juice-shop)
+- [Intentionally Vulnerable Golang Project](https://github.com/sonatype-nexus-community/intentionally-vulnerable-golang-project)
 
-#### Burp Suite Extensions (BApps)
-- **Website:** [https://portswigger.net/bappstore](https://portswigger.net/bappstore)
-- **Description:** Enhance Burp Suite’s capabilities with community and custom plugins (e.g., Param Miner, HTTP Request Smuggler).
+#### SCA Vulnerable Projects
+- [sca-small-goat](https://github.com/cxsca/sca-small-goat)
+
+#### IaC Vulnerable Projects
+- [IacGOAT](https://github.com/reinerHaneburgerSnyk/IacGOAT)
+- [VulnerableDockerfile](https://github.com/SamP10/VulnerableDockerfile)
+
+#### Secrets Vulnerable Projects
+- [wrongsecrets](https://github.com/OWASP/wrongsecrets)
 
 ---
 
