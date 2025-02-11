@@ -49,7 +49,7 @@ ASPM isn’t just another buzzword—it’s a necessity in today’s evolving cy
 | [SonarQube](https://www.sonarqube.org) | Open-source solution focused on code quality and vulnerability detection. |
 | [Veracode](https://www.veracode.com) | Cloud-based platform offering low false positives and detailed remediation guidance. |
 | [Semgrep](https://semgrep.dev) | Highly configurable static analysis that easily integrates into CI/CD pipelines across multiple languages. |
-| [Opengrep](https://opengrep.dev) | A Semgrep fork with extra customization options. |
+| [Opengrep](https://opengrep.dev) | A Semgrep fork, they plan to add taint analysis for free. |
 | [Synopsys Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) | Enterprise-grade analysis for large codebases with support for a wide range of languages. |
 
 ### DAST Tools
