@@ -1,6 +1,6 @@
 # Awesome ASPM
 
-This document is a curated, community‐driven list of resources from my ASPM universe—a comprehensive collection covering application security (AppSec), Application Security Posture Management (ASPM), and Software Supply Chain Security. Whether you're a developer, security engineer, or decision‐maker, use this list to navigate essential tools, techniques, URLs, and leading providers in the appsec space, while also gaining insight into supply chain risk management and transparency.
+This document is a curated, community‐driven list of resources from the ASPM universe—a comprehensive collection covering application security (AppSec), Application Security Posture Management (ASPM), and Software Supply Chain Security. Whether you're a developer, security engineer, or decision‐maker, use this list to navigate essential tools, techniques, URLs, and leading providers in the appsec space while gaining insight into supply chain risk management and transparency.
 
 ---
 
@@ -35,241 +35,253 @@ This document is a curated, community‐driven list of resources from my ASPM un
 
 ## Introduction
 
-In today's evolving cybersecurity landscape, effective Application Security Posture Management (ASPM) is critical to ensure that your applications remain secure throughout their lifecycle. This document not only highlights the best tools, techniques, and providers for ASPM but also dives into the vital realm of Software Supply Chain Security—covering initiatives, standards, regulations, and research that help manage risk from code to dependencies. Explore the sections below to discover how you can secure your applications and the software components that make them up.
+In today's evolving cybersecurity landscape, effective Application Security Posture Management (ASPM) is critical to ensure that your applications remain secure throughout their lifecycle. This document not only highlights the best tools, techniques, and providers for ASPM but also dives into the vital realm of Software Supply Chain Security—covering initiatives, standards, regulations, and research that help manage risk from code to dependencies.
 
 ---
 
 ## Tools
 
 ### SAST Tools
-Static Application Security Testing (SAST) tools analyze source code to detect vulnerabilities early in the development process.
 
-- **Checkmarx SAST**  
-  *Comprehensive scanning with support for 35+ languages and robust AI‐assisted remediation.*
+#### Checkmarx SAST
+- **Description:** Comprehensive scanning with support for 35+ languages and robust AI‐assisted remediation.
 
-- **SonarQube**  
-  *An open-source solution focused on code quality and vulnerability detection.*  
-  [Learn More](https://www.sonarqube.org)
+#### SonarQube
+- **Website:** [https://www.sonarqube.org](https://www.sonarqube.org)
+- **Description:** An open‐source solution focused on code quality and vulnerability detection.
 
-- **Veracode**  
-  *A cloud-based platform offering low false positives and detailed remediation guidance.*  
-  [Learn More](https://www.veracode.com)
+#### Veracode
+- **Website:** [https://www.veracode.com](https://www.veracode.com)
+- **Description:** A cloud‐based platform offering low false positives and detailed remediation guidance.
 
-- **Semgrep**  
-  *Highly configurable SAST that integrates into CI/CD pipelines for multiple languages.*  
-  [Learn More](https://semgrep.dev)
+#### Semgrep
+- **Website:** [https://semgrep.dev](https://semgrep.dev)
+- **Description:** Highly configurable SAST that integrates into CI/CD pipelines for multiple languages.
 
-- **Opengrep**  
-  *A Semgrep fork for additional customization.*  
-  [Learn More](https://opengrep.dev)
+#### Opengrep
+- **Website:** [https://opengrep.dev](https://opengrep.dev)
+- **Description:** A Semgrep fork for additional customization.
 
-- **Synopsys Coverity**  
-  *Enterprise-grade analysis for large codebases with extensive language support.*  
-  [Learn More](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html)
+#### Synopsys Coverity
+- **Website:** [https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html)
+- **Description:** Enterprise‐grade analysis for large codebases with extensive language support.
+
+---
 
 ### DAST Tools
-Dynamic Application Security Testing (DAST) tools assess running applications by simulating real-world attacks.
 
-- **Burp Suite**  
-  *Industry-standard web security testing tool available in Community and Professional editions.*  
-  [Learn More](https://portswigger.net/burp)
+#### Burp Suite
+- **Website:** [https://portswigger.net/burp](https://portswigger.net/burp)
+- **Description:** Industry‐standard web security testing tool available in Community and Professional editions.
 
-- **OWASP ZAP**  
-  *Open-source DAST tool for automated vulnerability scanning and manual testing.*  
-  [Learn More](https://www.zaproxy.org)
+#### OWASP ZAP
+- **Website:** [https://www.zaproxy.org](https://www.zaproxy.org)
+- **Description:** Open‐source DAST tool for automated vulnerability scanning and manual testing.
 
-- **Nuclei**  
-  *A fast and flexible vulnerability scanner based on templates for automated scanning across web services and networks.*  
-  [Learn More](https://nuclei.projectdiscovery.io)
+#### Nuclei
+- **Website:** [https://nuclei.projectdiscovery.io](https://nuclei.projectdiscovery.io)
+- **Description:** A fast and flexible vulnerability scanner based on templates for automated scanning across web services and networks.
+
+---
 
 ### IAST & RASP Tools
-Interactive Application Security Testing (IAST) combines the strengths of SAST and DAST, while Runtime Application Self-Protection (RASP) provides in-process defense.
 
-- **Contrast Security**  
-  *Offers both IAST and RASP capabilities for continuous in-context vulnerability detection.*  
-  [Learn More](https://www.contrastsecurity.com)
+#### Contrast Security
+- **Website:** [https://www.contrastsecurity.com](https://www.contrastsecurity.com)
+- **Description:** Offers both IAST and RASP capabilities for continuous in‐context vulnerability detection.
 
-- **HCL AppScan CodeSweep**  
-  *Delivers on-the-fly static and dynamic analysis integrated into your development workflow.*  
-  [Learn More](https://www.hcltech.com/software/appscan)
+#### HCL AppScan CodeSweep
+- **Website:** [https://www.hcltech.com/software/appscan](https://www.hcltech.com/software/appscan)
+- **Description:** Delivers on‐the‐fly static and dynamic analysis integrated into your development workflow.
+
+---
 
 ### ASPM Platforms
-ASPM platforms consolidate multiple testing and monitoring tools to provide a unified view of your application security posture.
 
-- **Plexicus**  
-  *Offers a limited but free ASPM for small projects.*  
-  [Learn More](https://www.plexicus.com)
+#### Plexicus
+- **Website:** [https://www.plexicus.com](https://www.plexicus.com)
+- **Description:** Offers a limited but free ASPM for small projects.
 
-- **Cycode ASPM**  
-  *Secures the entire software supply chain with continuous scanning and secrets management.*  
-  [Learn More](https://www.cycode.com)
+#### Cycode ASPM
+- **Website:** [https://www.cycode.com](https://www.cycode.com)
+- **Description:** Secures the entire software supply chain with continuous scanning and secrets management.
 
-- **GitLab**  
-  *A DevSecOps platform that integrates SAST, DAST, container scanning, and more into one unified workflow.*  
-  [Learn More](https://about.gitlab.com)
+#### GitLab
+- **Website:** [https://about.gitlab.com](https://about.gitlab.com)
+- **Description:** A DevSecOps platform that integrates SAST, DAST, container scanning, and more into one unified workflow.
 
-- **Snyk**  
-  *Developer-centric platform focusing on vulnerability detection and remediation in open-source dependencies.*  
-  [Learn More](https://snyk.io)
+#### Snyk
+- **Website:** [https://snyk.io](https://snyk.io)
+- **Description:** Developer‐centric platform focusing on vulnerability detection and remediation in open‐source dependencies.
+
+---
 
 ### SCM Tools & Git Repositories
-Source Code Management (SCM) tools host and manage your code repositories—essential for secure development workflows.
 
-- **GitHub**  
-  *The largest code hosting platform with robust collaboration and security features.*  
-  [Learn More](https://github.com)
+#### GitHub
+- **Website:** [https://github.com](https://github.com)
+- **Description:** The largest code hosting platform with robust collaboration and security features.
 
-- **GitLab**  
-  *Offers integrated CI/CD, SAST, and container scanning alongside repository hosting.*  
-  [Learn More](https://gitlab.com)
+#### GitLab
+- **Website:** [https://gitlab.com](https://gitlab.com)
+- **Description:** Offers integrated CI/CD, SAST, and container scanning alongside repository hosting.
 
-- **Bitbucket**  
-  *Atlassian’s code hosting service that integrates seamlessly with other Atlassian tools like Jira.*  
-  [Learn More](https://bitbucket.org)
+#### Bitbucket
+- **Website:** [https://bitbucket.org](https://bitbucket.org)
+- **Description:** Atlassian’s code hosting service that integrates seamlessly with other Atlassian tools like Jira.
 
-- **Gitea**  
-  *A lightweight, self-hosted Git service designed for simplicity and speed.*  
-  [Learn More](https://gitea.io)
+#### Gitea
+- **Website:** [https://gitea.io](https://gitea.io)
+- **Description:** A lightweight, self‐hosted Git service designed for simplicity and speed.
+
+---
 
 ### CNAPP Tools
-Cloud-Native Application Protection Platforms (CNAPP) provide comprehensive security across cloud environments.
 
-- **Prowler**  
-  *An open-source AWS security tool that performs extensive checks for cloud configuration best practices.*  
-  [Learn More](https://github.com/prowler-cloud/prowler)
+#### Prowler
+- **Website:** [https://github.com/prowler-cloud/prowler](https://github.com/prowler-cloud/prowler)
+- **Description:** An open‐source AWS security tool that performs extensive checks for cloud configuration best practices.
 
-- **CloudSploit**  
-  *Scans cloud environments for misconfigurations and vulnerabilities to secure cloud resources.*  
-  [Learn More](https://github.com/cloudsploit/CloudSploit)
+#### CloudSploit
+- **Website:** [https://github.com/cloudsploit/CloudSploit](https://github.com/cloudsploit/CloudSploit)
+- **Description:** Scans cloud environments for misconfigurations and vulnerabilities to secure cloud resources.
+
+---
 
 ### IaC & Container Security Tools
-Tools in this category secure Infrastructure as Code (IaC) and container environments. Many offer multi-feature scanning such as vulnerability assessment, SCA, SBOM generation, and license checks.
 
-- **Trivy**  
-  *A versatile scanner covering container images and IaC, including vulnerability scanning, SCA, license compliance, SBOM generation, and container security.*  
-  [Learn More](https://github.com/aquasecurity/trivy)
+#### Trivy
+- **Website:** [https://github.com/aquasecurity/trivy](https://github.com/aquasecurity/trivy)
+- **Description:** A versatile scanner covering container images and IaC, including vulnerability scanning, SCA, license compliance, SBOM generation, and container security.
 
-- **Kics**  
-  *Developed by Checkmarx, Kics scans IaC for misconfigurations and vulnerabilities across multiple formats.*  
-  [Learn More](https://kics.io)
+#### Kics
+- **Website:** [https://kics.io](https://kics.io)
+- **Description:** Developed by Checkmarx, Kics scans IaC for misconfigurations and vulnerabilities across multiple formats.
 
-- **Hadolint**  
-  *A Dockerfile linter that enforces best practices and security standards in container builds.*  
-  [Learn More](https://github.com/hadolint/hadolint)
+#### Hadolint
+- **Website:** [https://github.com/hadolint/hadolint](https://github.com/hadolint/hadolint)
+- **Description:** A Dockerfile linter that enforces best practices and security standards in container builds.
 
-- **Checkov**  
-  *Performs comprehensive security and compliance scans on IaC templates across cloud infrastructures and containers.*  
-  [Learn More](https://www.checkov.io)
+#### Checkov
+- **Website:** [https://www.checkov.io](https://www.checkov.io)
+- **Description:** Performs comprehensive security and compliance scans on IaC templates across cloud infrastructures and containers.
+
+---
 
 ### SCM Security & Software Supply Chain Tools
-These tools secure your development pipeline and software supply chain by ensuring SCM integrity, dependency analysis, and SBOM management.
 
-- **Chainbench**  
-  *Evaluates and secures SCM environments to ensure software supply chain integrity.*  
-  [Learn More](https://chainbench.io)
+#### Chainbench
+- **Website:** [https://chainbench.io](https://chainbench.io)
+- **Description:** Evaluates and secures SCM environments to ensure software supply chain integrity.
 
-- **Syft**  
-  *Generates a Software Bill of Materials (SBOM) from container images and filesystems for effective vulnerability management.*  
-  [Learn More](https://github.com/anchore/syft)
+#### Syft
+- **Website:** [https://github.com/anchore/syft](https://github.com/anchore/syft)
+- **Description:** Generates a Software Bill of Materials (SBOM) from container images and filesystems for effective vulnerability management.
 
-- **FOSSA**  
-  *Provides robust Software Composition Analysis (SCA) to manage open-source dependencies and license compliance.*  
-  [Learn More](https://fossa.com)
+#### FOSSA
+- **Website:** [https://fossa.com](https://fossa.com)
+- **Description:** Provides robust Software Composition Analysis (SCA) to manage open‐source dependencies and license compliance.
 
-- **SLSA Resources**  
-  *Offers frameworks and guidelines for Supply-chain Levels for Software Artifacts (SLSA) to ensure secure build integrity.*  
-  [Learn More](https://slsa.dev)
+#### SLSA Resources
+- **Website:** [https://slsa.dev](https://slsa.dev)
+- **Description:** Offers frameworks and guidelines for Supply‐chain Levels for Software Artifacts (SLSA) to ensure secure build integrity.
+
+---
 
 ### Secrets Management Tools
-These tools detect, manage, and prevent the leakage of sensitive information from your code and repositories.
 
-- **TruffleHog**  
-  *Searches git repositories for high-entropy strings and potential secrets leaks.*  
-  [Learn More](https://github.com/trufflesecurity/trufflehog)
+#### TruffleHog
+- **Website:** [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)
+- **Description:** Searches git repositories for high‐entropy strings and potential secrets leaks.
 
-- **GitGuardian**  
-  *Monitors repositories for exposed secrets and credentials in real time.*  
-  [Learn More](https://www.gitguardian.com)
+#### GitGuardian
+- **Website:** [https://www.gitguardian.com](https://www.gitguardian.com)
+- **Description:** Monitors repositories for exposed secrets and credentials in real time.
 
-- **Detect Secrets**  
-  *An open-source tool by Yelp that identifies potential secrets before code commits.*  
-  [Learn More](https://github.com/Yelp/detect-secrets)
+#### Detect Secrets
+- **Website:** [https://github.com/Yelp/detect-secrets](https://github.com/Yelp/detect-secrets)
+- **Description:** An open‐source tool by Yelp that identifies potential secrets before code commits.
 
-- **CredScan**  
-  *Microsoft’s tool for scanning codebases for credentials and secrets to ensure secure deployments.*  
-  [Learn More](https://github.com/microsoft/CredScan)
+#### CredScan
+- **Website:** [https://github.com/microsoft/CredScan](https://github.com/microsoft/CredScan)
+- **Description:** Microsoft’s tool for scanning codebases for credentials and secrets to ensure secure deployments.
+
+---
 
 ### Other Useful Tools
-- **Wireshark**  
-  *A powerful network sniffer for capturing and analyzing network traffic for diagnostic purposes.*  
-  [Learn More](https://www.wireshark.org)
 
-- **Burp Suite Extensions (BApps)**  
-  *Enhance Burp Suite’s capabilities with community and custom plugins (e.g., Param Miner, HTTP Request Smuggler).*  
-  [Explore BApps](https://portswigger.net/bappstore)
+#### Wireshark
+- **Website:** [https://www.wireshark.org](https://www.wireshark.org)
+- **Description:** A powerful network sniffer for capturing and analyzing network traffic for diagnostic purposes.
+
+#### Burp Suite Extensions (BApps)
+- **Website:** [https://portswigger.net/bappstore](https://portswigger.net/bappstore)
+- **Description:** Enhance Burp Suite’s capabilities with community and custom plugins (e.g., Param Miner, HTTP Request Smuggler).
 
 ---
 
 ## Techniques
 
 ### Secure Coding & Threat Modeling
-- **OWASP Top Ten**  
-  *Understand and mitigate common vulnerabilities such as Injection, Broken Access Control, and more.*  
-  [Learn More](https://owasp.org/www-project-top-ten/)
 
-- **Threat Modeling**  
-  *Incorporate design reviews and risk analysis early in the SDLC to identify potential security issues.*
+#### OWASP Top Ten
+- **Website:** [https://owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)
+- **Description:** Understand and mitigate common vulnerabilities such as Injection, Broken Access Control, and more.
+
+#### Threat Modeling
+- **Description:** Incorporate design reviews and risk analysis early in the SDLC to identify potential security issues.
 
 ### Fuzz Testing & Penetration Testing
-- **Fuzz Testing**  
-  *Use fuzzers to generate random inputs and detect unexpected behavior or security flaws.*
 
-- **Penetration Testing**  
-  *Combine automated scans with manual testing (using tools like Metasploit) to comprehensively evaluate security.*  
-  [Learn More About Pen Testing](https://www.metasploit.com)
+#### Fuzz Testing
+- **Description:** Use fuzzers to generate random inputs and detect unexpected behavior or security flaws.
+
+#### Penetration Testing
+- **Website:** [https://www.metasploit.com](https://www.metasploit.com)
+- **Description:** Combine automated scans with manual testing (using tools like Metasploit) to comprehensively evaluate security.
 
 ---
 
 ## URLs & Resources
 
-- **OWASP Official Website**  
-  [https://owasp.org](https://owasp.org)
+#### OWASP Official Website
+- **Website:** [https://owasp.org](https://owasp.org)
 
-- **Awesome AppSec (GitHub)**  
-  [https://github.com/paragonie/awesome-appsec](https://github.com/paragonie/awesome-appsec)
+#### Awesome AppSec (GitHub)
+- **Website:** [https://github.com/paragonie/awesome-appsec](https://github.com/paragonie/awesome-appsec)
 
-- **Awesome Security (GitHub)**  
-  [https://github.com/sbilly/awesome-security](https://github.com/sbilly/awesome-security)
+#### Awesome Security (GitHub)
+- **Website:** [https://github.com/sbilly/awesome-security](https://github.com/sbilly/awesome-security)
 
-- **eSecurity Planet**  
-  [https://www.esecurityplanet.com](https://www.esecurityplanet.com)
+#### eSecurity Planet
+- **Website:** [https://www.esecurityplanet.com](https://www.esecurityplanet.com)
 
-- **Burp Suite Documentation**  
-  [https://portswigger.net/burp/documentation](https://portswigger.net/burp/documentation)
+#### Burp Suite Documentation
+- **Website:** [https://portswigger.net/burp/documentation](https://portswigger.net/burp/documentation)
 
 ---
 
 ## Providers & Services
 
-- **Plexicus**  
-  *Offers a limited but free ASPM for small projects.*  
-  [Learn More](https://www.plexicus.com)
+#### Plexicus
+- **Website:** [https://www.plexicus.com](https://www.plexicus.com)
+- **Description:** Offers a limited but free ASPM for small projects.
 
-- **Veracode**  
-  *Offers comprehensive security testing services tailored for large enterprises.*  
-  [Learn More](https://www.veracode.com)
+#### Veracode
+- **Website:** [https://www.veracode.com](https://www.veracode.com)
+- **Description:** Offers comprehensive security testing services tailored for large enterprises.
 
-- **Snyk**  
-  *Provides developer-friendly vulnerability scanning and remediation with seamless CI/CD integration.*  
-  [Learn More](https://snyk.io)
+#### Snyk
+- **Website:** [https://snyk.io](https://snyk.io)
+- **Description:** Provides developer‐friendly vulnerability scanning and remediation with seamless CI/CD integration.
 
-- **Checkmarx**  
-  *Enterprise-grade SAST solutions with deep language support and AI-assisted vulnerability prioritization.*  
-  [Learn More](https://www.checkmarx.com)
+#### Checkmarx
+- **Website:** [https://www.checkmarx.com](https://www.checkmarx.com)
+- **Description:** Enterprise‐grade SAST solutions with deep language support and AI‐assisted vulnerability prioritization.
 
-- **Cycode**  
-  *Secures the software supply chain with real-time ASPM capabilities.*  
-  [Learn More](https://www.cycode.com)
+#### Cycode
+- **Website:** [https://www.cycode.com](https://www.cycode.com)
+- **Description:** Secures the software supply chain with real‐time ASPM capabilities.
 
 ---
 
@@ -278,74 +290,81 @@ These tools detect, manage, and prevent the leakage of sensitive information fro
 Software Supply Chain Security is a critical complement to ASPM. This section gathers initiatives, standards, organizations, and tooling that help ensure the integrity and transparency of every software component—from development to deployment.
 
 ### Organizations & Foundations
-- **NTIA**  
-  *Provides SBOM resources, FAQs, and guides to help organizations generate and manage Software Bills of Materials (SBOMs).*  
-  [NTIA SBOM Resources](https://www.ntia.gov/page/software-bill-materials)
 
-- **CISA**  
-  *Offers SBOM resources, security guidance, and recommendations on defending against software supply chain attacks.*  
-  [CISA SBOM Resources](https://www.cisa.gov/sbom)
+#### NTIA
+- **Website:** [https://www.ntia.gov/page/software-bill-materials](https://www.ntia.gov/page/software-bill-materials)
+- **Description:** Provides SBOM resources, FAQs, and guides to help organizations generate and manage Software Bills of Materials (SBOMs).
 
-- **The White House – ONCD** and **NIST**  
-  *Develop national cybersecurity strategies and secure software development frameworks (e.g., NIST SP 800-218, SP 800-161).*
+#### CISA
+- **Website:** [https://www.cisa.gov/sbom](https://www.cisa.gov/sbom)
+- **Description:** Offers SBOM resources, security guidance, and recommendations on defending against software supply chain attacks.
 
-- **OWASP, OpenSSF, and CNCF**  
-  *Drive community initiatives such as the OWASP Software Component Verification Standard, OpenSSF Scorecard, and CNCF best practices for supply chain security.*
+#### The White House – ONCD and NIST
+- **Description:** Develop national cybersecurity strategies and secure software development frameworks (e.g., NIST SP 800-218, SP 800-161).
+
+#### OWASP, OpenSSF, and CNCF
+- **Description:** Drive community initiatives such as the OWASP Software Component Verification Standard, OpenSSF Scorecard, and CNCF best practices for supply chain security.
 
 ### Regulations
-- **EO-14028**  
-  *An executive order on improving the nation’s cybersecurity that emphasizes supply chain risk management.*
-  
-- **European Cyber Resilience Act (CRA)**  
-  *A regulatory framework aimed at enhancing cybersecurity in the software supply chain across Europe.*
+
+#### EO-14028
+- **Description:** An executive order on improving the nation’s cybersecurity that emphasizes supply chain risk management.
+
+#### European Cyber Resilience Act (CRA)
+- **Description:** A regulatory framework aimed at enhancing cybersecurity in the software supply chain across Europe.
 
 ### Standards, Frameworks, & Best Practices
-- **SLSA (Supply-chain Levels for Software Artifacts)**  
-  *A framework to ensure that software builds are secure and verifiable.*  
-  [Learn More](https://slsa.dev)
 
-- **OWASP SCVS and CSAF**  
-  *Standards for verifying third-party components and exchanging security advisory information.*
+#### SLSA (Supply-chain Levels for Software Artifacts)
+- **Website:** [https://slsa.dev](https://slsa.dev)
+- **Description:** A framework to ensure that software builds are secure and verifiable.
 
-- **NIST SP 800-218 & SP 800-204D**  
-  *Guidelines and drafts for secure software development and integrating supply chain security into CI/CD pipelines.*
+#### OWASP SCVS and CSAF
+- **Description:** Standards for verifying third‐party components and exchanging security advisory information.
+
+#### NIST SP 800-218 & SP 800-204D
+- **Description:** Guidelines and drafts for secure software development and integrating supply chain security into CI/CD pipelines.
 
 ### Threats, Attacks & Vulnerability Management
-- **Threat Catalogs and Attack Vectors**  
-  *Resources like MITRE ATT&CK, CAPEC, and CNCF’s catalog provide insights into supply chain compromise techniques.*
 
-- **Vulnerability Databases**  
-  *Integrate data from CVE, NVD, VulnDB, OSV, and Snyk Vulnerability DB for continuous monitoring of risks.*
+#### Threat Catalogs and Attack Vectors
+- **Description:** Resources like MITRE ATT&CK, CAPEC, and CNCF’s catalog provide insights into supply chain compromise techniques.
 
-- **Exploitability Information (VEX, EPSS)**  
-  *Standards and tools to assess vulnerability exploitability and prioritize remediation.*
+#### Vulnerability Databases
+- **Description:** Integrate data from CVE, NVD, VulnDB, OSV, and Snyk Vulnerability DB for continuous monitoring of risks.
+
+#### Exploitability Information (VEX, EPSS)
+- **Description:** Standards and tools to assess vulnerability exploitability and prioritize remediation.
 
 ### Software Identification & Bill of Materials
-- **Software Identification**  
-  *Standards like CPE, SWID, and purl help uniquely identify software components.*
 
-- **SBOM & Related BOMs**  
-  *Tools and formats (CycloneDX, SPDX) support the creation and management of SBOMs, which are essential for understanding component dependencies and vulnerabilities.*
+#### Software Identification
+- **Description:** Standards like CPE, SWID, and purl help uniquely identify software components.
+
+#### SBOM & Related BOMs
+- **Description:** Tools and formats (CycloneDX, SPDX) support the creation and management of SBOMs, which are essential for understanding component dependencies and vulnerabilities.
 
 ### Tooling & Cloud Supply Chain Security
-- **SBOM Generation & Analysis Tools**  
-  *Tools such as Syft, Tern, Trivy, and Dependency-Track enable automated SBOM generation and vulnerability scanning.*
 
-- **Cloud Supply Chain Security**  
-  *Guidance from AWS, Azure, and GCP on using SBOMs and securing container image build pipelines.*  
-  - [Exporting SBOMs with Amazon Inspector](https://docs.aws.amazon.com/inspector/latest/user/sbom-export.html)  
-  - [SBOM in Azure Engineering](https://devblogs.microsoft.com/engineering-at-microsoft/tag/sbom/)  
-  - [Google’s Software Supply Chain Security Documentation](https://cloud.google.com/software-supply-chain-security/docs)
+#### SBOM Generation & Analysis Tools
+- **Description:** Tools such as Syft, Tern, Trivy, and Dependency-Track enable automated SBOM generation and vulnerability scanning.
+
+#### Cloud Supply Chain Security
+- **Description:** Guidance from AWS, Azure, and GCP on using SBOMs and securing container image build pipelines.
+- **AWS:** [Exporting SBOMs with Amazon Inspector](https://docs.aws.amazon.com/inspector/latest/user/sbom-export.html)
+- **Azure:** [SBOM in Azure Engineering](https://devblogs.microsoft.com/engineering-at-microsoft/tag/sbom/)
+- **Google Cloud:** [Software Supply Chain Security Documentation](https://cloud.google.com/software-supply-chain-security/docs)
 
 ### Further Reading & Resources
-- **Books & Industry Reports**  
-  *Titles such as "Securing the Software Supply Chain" and annual reports from Sonatype, Snyk, and OpenSSF provide deeper insights.*
 
-- **Guides & Documentation**  
-  *Resources like the OWASP CycloneDX SBOM Guide and GitHub’s documentation on Software Supply Chain Security offer practical steps.*
+#### Books & Industry Reports
+- **Description:** Titles such as *Securing the Software Supply Chain* and annual reports from Sonatype, Snyk, and OpenSSF provide deeper insights.
 
-- **GitHub Repos & Projects**  
-  *Community-driven repositories such as awesome-software-supply-chain-security and various SBOM toolkits.*
+#### Guides & Documentation
+- **Description:** Resources like the OWASP CycloneDX SBOM Guide and GitHub’s documentation on Software Supply Chain Security offer practical steps.
+
+#### GitHub Repos & Projects
+- **Description:** Community‐driven repositories such as awesome‐software‐supply‐chain‐security and various SBOM toolkits.
 
 For a more exhaustive list of resources—including detailed organization pages, attack research reports, and technical guides—please refer to the extended Software Supply Chain Security knowledge base available on GitHub and through linked publications.
 
@@ -353,13 +372,13 @@ For a more exhaustive list of resources—including detailed organization pages,
 
 ## Additional Resources
 
-- **Books & Courses**  
-  - *The Web Application Hacker's Handbook*  
-  - OWASP training materials and official guides.
+#### Books & Courses
+- *The Web Application Hacker's Handbook*
+- OWASP training materials and official guides.
 
-- **Community Forums & Conferences**  
-  - [r/devsecops on Reddit](https://www.reddit.com/r/devsecops/)  
-  - Attend conferences like Black Hat, DefCon, and OWASP AppSec.
+#### Community Forums & Conferences
+- **Reddit:** [r/devsecops](https://www.reddit.com/r/devsecops/)
+- Conferences such as Black Hat, DefCon, and OWASP AppSec.
 
-- **Research & Blogs**  
-  - Wired, Lifewire, and eSecurity Planet offer articles on emerging trends in appsec, ASPM, and supply chain security.
+#### Research & Blogs
+- **Description:** Wired, Lifewire, and eSecurity Planet offer articles on emerging trends in appsec, ASPM, and supply chain security.
