@@ -35,7 +35,7 @@ A community‐driven, curated list of top resources from the ASPM universe. This
 
 ## Introduction
 
-ASPM isn’t just another buzzword—it’s a necessity in today’s evolving cybersecurity landscape. This guide highlights the tools, techniques, and providers that help you secure your applications and manage the risks in your software supply chain. Simple, clear, and straight to the point.
+This guide highlights the tools, techniques, and providers that help you secure your applications and manage the risks in your software supply chain.
 
 ---
 
